@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/social-buttons.css">
   <link rel="stylesheet" href="css/parallax.css">
 
-  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="js/modernizr.foundation.js"></script>
   <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 
 </head>
@@ -31,10 +31,18 @@
 
 <!------------------ v TOP SECTION v ------------------>
 
-  <section id="first" class="story" data-speed="8" data-type="background">
-  <div class="entrance">
+	
+    
+    
+    
+  <section id="first" class="story" data-speed="4" data-type="background">
   
-  	<div class="logo" data-type="sprite" data-offsetY="100" data-Xposition="50%" data-speed="-1"></div>
+    <div class="logo" data-type="sprite" data-offsetY="100" data-Xposition="50%" data-speed="-10"></div>
+    
+   </section> 
+  
+  
+<div class="my-sticky-element">
     
     <nav class="top-bar">
 
@@ -78,7 +86,7 @@
                 
             </ul>
           </li>
-          </li>
+         
 
         </ul>
 
@@ -94,7 +102,7 @@
     </nav>
   </div>
   
-  </section>
+ 
 
 
 
@@ -172,7 +180,7 @@
   
 </section>
     
-
+</div>
 
 <!------------------ v FOOTER SECTION v ------------------>
  
@@ -242,6 +250,7 @@
         ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
         '.js><\/script>')
     </script>
+    
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.alerts.js"></script>
     <script src="js/foundation/foundation.clearing.js"></script>
@@ -262,6 +271,20 @@
     </script>
     
     <script src="js/script.js"></script>
+    
+    <script src="js/waypoints/waypoints.js"></script>
+	<script src="js/waypoints/waypoints-sticky.js"></script>
+    
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+     		$('.my-sticky-element nav.top-bar').waypoint(function(direction) {
+        		$('nav.top-bar').toggleClass('sticky', direction === 'up');  
+      		});
+    	});
+    </script>
+
+	
     
 <!------------------ ^ Javascript ^ ------------------>
 

@@ -10,9 +10,11 @@ body {
 	background:#fff !important;
 	}
 
-img.logo {
-	padding:20px 0 15px 0;
-	}
+
+	.logo {
+		display: block;
+		z-index: 999;
+		}
 
 hr {
 	border-color:#eee;
