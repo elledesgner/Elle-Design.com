@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*/
+ * Parallax Scrolling Tutorial
+ * www.richardshepherd.com
+/*/
+
+
+
+.story {height:600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(255,255,255,0.1);}
+
+
+#first { background: url("http://placehold.it/1500x1500") 50% 0 no-repeat fixed; }
+#second { background: url("http://placehold.it/1500x1000") 50% 0 repeat fixed; }
+#theend { background: url("http://placehold.it/1500x400") 50% bottom no-repeat fixed; }
+
+/* Home */
+#first .logo { background: url("http://placehold.it/300x300") 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first .flourish { background: url("http://placehold.it/500x500") 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+
+
+/* Work */
+#second { padding: 50px 0;}
+#second article { background: url(WORKBG.png) repeat #333; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; border: 1px solid rgba(150,150,150,0.1); }
+
+
+/* Footer */
+#theend .byebye { background: url(../images/theend.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+
