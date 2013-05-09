@@ -31,7 +31,14 @@ $(document).ready(function(){
 			topOffset = offsetCoords.top;
 		
 		// When the window is scrolled...
-	    $(window).scroll(function() {
+		$(window).scroll(function() {
+		      
+		      if ($window.scrollTop() >  695) {
+		       $('.top-bar').addClass('stick');
+		      }
+		      else {
+		       $('.top-bar').removeClass('stick');
+		      }
 	
 			// If this section is in view
 			if ( ($window.scrollTop() + $window.height()) > (topOffset) &&

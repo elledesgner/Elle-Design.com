@@ -15,6 +15,14 @@ body {
 		display: block;
 		z-index: 999;
 		}
+	.stick {
+		 position: fixed;
+		 top: 0;
+		 left: 0;
+		 right: 0;
+		 z-index: 3;
+		 background-color: #fff;
+		}
 
 hr {
 	border-color:#eee;
@@ -26,7 +34,7 @@ hr {
 /******** Navigation */
 	
 .top-bar {
-	background: transparent;
+	background: #fff;
 	margin-bottom:0px;
 	}
 	.top-bar .name {
