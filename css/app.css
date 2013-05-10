@@ -10,10 +10,12 @@ body {
 	background:#fff !important;
 	}
 
-
 	.logo {
-		display: block;
-		z-index: 999;
+		background: #FFF;
+		position:fixed;
+		top:30px;
+		margin: 0px auto;
+		z-index: 9999;
 		}
 	.stick {
 		 position: fixed;
@@ -21,7 +23,13 @@ body {
 		 left: 0;
 		 right: 0;
 		 z-index: 3;
-		 background-color: #fff;
+		}
+	.shrink {
+		top:-95px;
+		left: 0;
+		-webkit-transform: scale(0.3,0.3);
+		transform: scale(0.3,0.3);
+		-ms-transform:scale(0.3,0.3);
 		}
 
 hr {
@@ -34,11 +42,16 @@ hr {
 /******** Navigation */
 	
 .top-bar {
-	background: #fff;
+	background:#fff;
 	margin-bottom:0px;
+	height: auto;
 	}
 	.top-bar .name {
 		height:auto;
+		} 
+	.top-bar-section {
+		padding-top: 115px;
+		background: #fff;
 		}
 	.top-bar-section li > a:not(.button), .top-bar-section li a:not(.button), .top-bar-section ul li > a {
 		background: transparent;

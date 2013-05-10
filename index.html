@@ -35,14 +35,23 @@
     
     
     
-  <section id="first" class="story" data-speed="4" data-type="background">
-  
-    <div class="logo" data-type="sprite" data-offsetY="100" data-Xposition="50%" data-speed="-10"></div>
+  <section id="first" class="story" data-speed="8" data-type="background">
+    <article>
     
-   </section> 
-  
+
+        
+    </article>
+  </section>
+
+ 
   
 <div class="my-sticky-element">
+
+    <div class="sticky">
+        <div class="row"><center>
+            <img src="http://placehold.it/300x300" class="logo"></center>
+        </div>
+    </div>
     
     <nav class="top-bar sticky">
 
@@ -102,7 +111,7 @@
     </nav>
   </div>
   
- 
+
 
 
 
@@ -279,7 +288,15 @@
 	<script type="text/javascript">
     	$(document).ready(function(){
      		$('.my-sticky-element nav.top-bar').waypoint(function(direction) {
-        		$('nav.top-bar').toggleClass('sticky', direction === 'up');  
+        		$('nav.top-bar').toggleClass('sticky', direction === 'up'); 
+      		});
+    	});
+    </script>
+    
+    <!-- <script type="text/javascript">
+    	$(document).ready(function(){
+     		$('section #first img.logo').waypoint(function(direction) {
+        		$('div.logo').toggleClass('shrink', direction === 'up');  
       		});
     	});
     </script>

@@ -8,7 +8,20 @@
 
 
 
-.story {height:760px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; background: rgba(255,255,255,0.2) !important;}
+.story { 
+	height:660px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	margin: 0 auto; 
+	background: -moz-linear-gradient(top, rgba(255,255,255,0), white);
+	background: -moz-linear-gradient(to bottom, white, rgba(255,255,255,0)); 
+	background: -ms-linear-gradient(top, rgba(255,255,255,0), white); 
+	background: -o-linear-gradient(bottom,white, rgba(255,255,255,0)); 
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0), white) !important;
+	}
 
 
 #first { background: url("http://placehold.it/1500x1500") 50% 0 no-repeat fixed; }
@@ -16,9 +29,8 @@
 #theend { background: url("http://placehold.it/1500x400") 50% bottom no-repeat fixed; }
 
 /* Home */
-#first .logo { background: url("http://placehold.it/300x300") 50% 100px no-repeat fixed; min-height: 760px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 #first .flourish { background: url("http://placehold.it/500x500") 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article { width: 100%; top: 100px; position: absolute; }
 
 
 /* Work */

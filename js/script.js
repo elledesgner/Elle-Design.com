@@ -5,8 +5,14 @@
  *   
  * Author: Richard Shepherd
  * 		   www.richardshepherd.com
- * 		   @richardshepherd   
+ * 		   @richardshepherd 
+ *
+ * Running Navigation: Michael Baker
+ *                     @mibake
+ * 
  */
+ 
+ 
 
 // On your marks, get set...
 $(document).ready(function(){
@@ -32,8 +38,16 @@ $(document).ready(function(){
 		
 		// When the window is scrolled...
 		$(window).scroll(function() {
-		      
-		      if ($window.scrollTop() >  695) {
+			
+			  if ($window.scrollTop() > 460 ) {
+				$('.logo').addClass('shrink');
+		      }
+		 	  else {
+				$('.logo').removeClass('shrink');
+		      }	
+			  
+		 
+		      if ($window.scrollTop() > 620 ) {
 		       $('.top-bar').addClass('stick');
 		      }
 		      else {
