@@ -1,14 +1,12 @@
 /**
- * Parallax Scrolling Tutorial
- * For Smashing Magazine
- * July 2011
- *   
- * Author: Richard Shepherd
- * 		   www.richardshepherd.com
- * 		   @richardshepherd 
  *
- * Running Navigation: Michael Baker
- *                     @mibake
+ *   
+ * Smashing Magazine Parallax: Richard Shepherd
+ * 		  					   www.richardshepherd.com
+ * 		   					   @richardshepherd 
+ *
+ * Run + Stick Navigation: Michael Baker
+ *                         @mibake
  * 
  */
  
